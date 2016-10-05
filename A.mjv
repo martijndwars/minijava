@@ -1,0 +1,74 @@
+class A {
+  public static void main(String[] args) {
+    System.out.println(new Baz().m());
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Foo {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  public int m() {
+    return 42;
+  }
+}
+
+class Baz extends Bar {
+}

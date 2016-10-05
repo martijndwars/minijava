@@ -1,0 +1,23 @@
+class B {
+  public static void main(String[] args) {
+    System.out.println(new Bar().n());
+  }
+}
+
+
+
+
+
+
+
+
+
+class Bar extends Foo {
+    public int m() {
+        return 42;
+    }
+
+    public int n() {
+        return this.m();
+    }
+}

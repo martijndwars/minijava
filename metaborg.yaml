@@ -1,0 +1,9 @@
+---
+id: org.metaborg:MiniJava:0.1.0-SNAPSHOT
+name: minijava.example
+dependencies:
+  compile:
+  - org.metaborg:MiniJava:0.1.0-SNAPSHOT
+build:
+  useBuildSystemSpec: true
+
