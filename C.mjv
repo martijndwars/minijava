@@ -1,0 +1,12 @@
+class C {
+  public static void main(String[] args) {
+    System.out.println(new D().m());
+  }
+}
+
+class D {
+  public int m() {
+    return 42;
+  }
+}
+
